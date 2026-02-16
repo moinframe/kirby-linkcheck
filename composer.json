@@ -1,0 +1,59 @@
+{
+	"name": "moinframe/kirby-linkcheck",
+	"description": "Kirby CMS plugin to crawl a website and check for broken links",
+	"type": "kirby-plugin",
+	"license": "MIT",
+	"version": "0.0.0",
+	"keywords": [
+		"kirby",
+		"cms",
+		"plugin",
+		"link checker"
+	],
+	"authors": [
+		{
+			"name": "Justus Kraft",
+			"email": "justus@moinfra.me",
+			"homepage": "https://moinfra.me"
+		}
+	],
+	"require": {
+		"php": "^8.3",
+		"getkirby/cms": "^5.3"
+	},
+	"require-dev": {
+		"pestphp/pest": "^3.0",
+		"phpstan/phpstan": "^2.1",
+		"phpstan/phpstan-strict-rules": "^2.0",
+		"phpstan/phpstan-deprecation-rules": "^2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Moinframe\\Linkcheck\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\": "tests/"
+		}
+	},
+	"scripts": {
+		"test": "vendor/bin/pest",
+		"analyse": "vendor/bin/phpstan analyse"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"allow-plugins": {
+			"getkirby/composer-installer": true,
+			"pestphp/pest-plugin": true
+		}
+	},
+	"support": {
+		"docs": "https://moinfra.me/docs/moinframe-linkcheck",
+		"source": "https://github.com/moinframe/kirby-linkcheck",
+		"issues": "https://github.com/moinframe/kirby-linkcheck/issues"
+	},
+	"extra": {
+		"installer-name": "linkcheck"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"name": "linkcheck",
+	"scripts": {
+		"dev": "npx -y kirbyup src-panel/index.js --watch",
+		"build": "npx -y kirbyup src-panel/index.js"
+	},
+	"devDependencies": {
+		"kirbyuse": "^1.3.0"
+	}
+}
