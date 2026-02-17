@@ -3,7 +3,7 @@
     "description": "Kirby CMS plugin to crawl a website and check for broken links",
     "license": "MIT",
     "type": "kirby-plugin",
-    "version": "1.0.0-beta.1",
+    "version": "1.0.0-beta.2",
     "homepage": "https://github.com/moinframe/kirby-linkcheck",
     "keywords": [
         "kirby",
