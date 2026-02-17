@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.0.0-beta.3](///compare/v1.0.0-beta.2...v1.0.0-beta.3) (2026-02-17)
+
 ## [1.0.0-beta.2](///compare/v1.0.0-beta.1...v1.0.0-beta.2) (2026-02-17)
 
 ### Bug Fixes
