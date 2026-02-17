@@ -1,4 +1,4 @@
-# Link Checker
+# Kirby Linkcheck
 
 A Kirby CMS plugin that crawls a website, discovers all links, and checks them for broken HTTP responses. Results are displayed in a Panel section or via the CLI.
 
@@ -90,8 +90,8 @@ For sites with many pages you may need to adjust your PHP configuration:
 
 ```ini
 ; php.ini or pool-specific config
-max_execution_time = 300   ; Allow up to 5 minutes (default: 30)
-memory_limit = 512M        ; Increase if crawling thousands of pages (default: 128M)
+max_execution_time = 300   ; Allow up to 5 minutes
+memory_limit = 512M        ; Increase if errors occur
 ```
 
 The CLI command is not affected by `max_execution_time` (PHP CLI has no time limit by default).

@@ -1,6 +1,6 @@
 {
     "name": "moinframe/kirby-linkcheck",
-    "description": "Kirby CMS plugin to crawl a website and check for broken links",
+    "description": "Kirby CMS plugin to crawl a website and check for broken links. From the Kirby Panel or via the CLI.",
     "license": "MIT",
     "type": "kirby-plugin",
     "version": "1.0.0-beta.2",

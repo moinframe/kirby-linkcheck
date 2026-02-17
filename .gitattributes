@@ -5,7 +5,6 @@
 # Dev
 .editorconfig export-ignore
 biome.json export-ignore
-.paradocs.json export-ignore
 CLAUDE.md export-ignore
 phpstan.neon export-ignore
 
