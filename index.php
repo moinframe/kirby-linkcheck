@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 use Moinframe\Linkcheck\CrawlResult;
 use Moinframe\Linkcheck\LinkChecker;
-use Kirby\Cms\App;
+use Kirby\Cms\App as Kirby;
 use Kirby\Filesystem\F;
 
 F::loadClasses([
@@ -13,7 +13,7 @@ F::loadClasses([
     'Moinframe\\Linkcheck\\HtmlLinkExtractor' => 'src/HtmlLinkExtractor.php',
 ], __DIR__);
 
-App::plugin('moinframe/kirby-linkcheck', [
+Kirby::plugin('moinframe/linkcheck', [
     'options' => [
         'userAgent' => 'MoinframeLinkcheck/1.0',
         'timeout' => 10,
